@@ -1,0 +1,51 @@
+Motosega:
+    Item_Information:
+        Item_Name: "&eMotosega"
+        Item_Type: 359
+        Item_Lore: "&eUna mitragliatrice ad alto voltaggio!| &ePuò paralizzare il nemico"
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 12
+        Projectile_Type: energy
+        Projectile_Subtype: 6-6-6-6
+        Remove_Bullet_Drop: true
+        Projectile_Speed: 8
+        Projectile_Damage: 40
+        Bullet_Spread: 1
+        Sounds_Projectile: ENTITY_EGG_THROW-2-2-1
+        Sounds_Shoot: BLOCK_ANVIL_PLACE-2-2-1
+    Fully_Automatic:
+        Enable: true
+        Fire_Rate: 16
+    Reload:
+        Enable: true
+        Starting_Amount: 300
+        Reload_Amount: 200
+        Reload_Duration: 100
+        Sounds_Out_Of_Ammo: BLOCK_DISPENSER_FAIL-2-2-1
+        Sounds_Reloading: BLOCK_ANVIL_USE-2-2-1
+    Firearm_Action:
+        Type: slide
+        Open_Duration: 1
+        Close_Duration: 1
+        Sound_Open: BLOCK_FENCE_GATE_OPEN-2-2-1
+        Sound_Close: BLOCK_FENCE_GATE_CLOSE-2-2-1
+    Headshot:
+        Enable: true
+        Bonus_Damage: 20
+    Backstab:
+        Enable: true
+        Bonus_Damage: 20
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 200
+        Chance: 1
+    Potion_Effects:
+        Activation: head
+        Potion_Effect_Shooter: ABSORPTION-200-1,BLINDNESS-1-1,CONFUSION-1-1,DAMAGE_RESISTANCE-200-1,FIRE_RESISTANCE-200-1,HEALTH_BOOST-200-1,HUNGER-1-1,INCREASE_DAMAGE-200-1,JUMP-200-1,POISON-1-1,REGENERATION-200-1,SATURATION-200-1,SLOW-1-1,SPEED-200-1,WEAKNESS-1-1,WITHER-1-1
+        Potion_Effect_Victim: ABSORPTION-1-1,BLINDNESS-200-100,CONFUSION-200-1,DAMAGE_RESISTANCE-1-1,FIRE_RESISTANCE-1-1,HEALTH_BOOST-1-1,HUNGER-200-1,INCREASE_DAMAGE-1-1,JUMP-1-1,POISON-200-1,REGENERATION-1-1,SATURATION-1-1,SLOW-200-1,SPEED-1-1,WEAKNESS-200-1,WITHER-200-1
+    Particles:
+       Enable: true
+       Particle_Player_Shoot: block_break-57
+       Particle_Headshot: block_break-152
