@@ -1,0 +1,68 @@
+Azzeratore:
+    Item_Information:
+        Item_Name: "&c&lAzzeratore"
+        Item_Type: 38
+        Item_Lore: "&f&lAzzera i tuoi problemi!"
+        Inventory_Control: Uno
+        Sounds_Acquired: BLOCK_ENDERCHEST_CLOSE-2-2-20
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 1
+        Projectile_Type: fireball
+        Remove_Arrows_On_Impact: true
+        Remove_Bullet_Drop: true
+        Projectile_Speed: 15
+        Projectile_Damage: 10
+        Sounds_Projectile: ENTITY_CHICKEN_DEATH-2-2-20
+        Sounds_Shoot: BLOCK_ANVIL_FALL-2-2-20
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 322
+        Take_Ammo_Per_Shot: true
+        Sounds_Out_Of_Ammo: BLOCK_DISPENSER_FAIL-2-2-20
+        Sounds_Shoot_With_No_Ammo: BLOCK_DISPENSER_FAIL-2-2-20
+    Reload:
+        Enable: true
+        Starting_Amount: 10
+        Reload_Amount: 1
+        Reload_Duration: 50    
+        Sounds_Out_Of_Ammo: BLOCK_DISPENSER_FAIL-2-2-20
+        Sounds_Reloading: BLOCK_ANVIL_USE-2-2-20
+    Firearm_Action:
+        Type: pump
+        Open_Duration: 20
+        Close_Duration: 20
+        Sound_Open: BLOCK_PISTON_EXTEND-2-2-20
+        Sound_Close: BLOCK_PISTON_CONTRACT-2-2-20
+    Spawn_Entity_On_Hit:
+        Enable: true
+        Chance: 10
+        Mob_Name:  wither_skeleton
+        Make_Entities_Target_Victim: true
+        Timed_Death: 160
+        Entity_Disable_Drops: true
+    Shrapnel:
+        Enable: true
+        Block_Type: 121
+        Amount: 3
+        Speed: 5
+        Place_Blocks: false
+    Explosions:
+        Enable: true
+        Enable_Owner_Immunity: true
+        Explosion_No_Damage: true
+        Explosion_Potion_Effect: ABSORPTION-1-1,DAMAGE_RESISTANCE-1-1,HEALTH_BOOST-1-1,INCREASE_DAMAGE-1-1,JUMP-1-1,REGENERATION-1-1,SATURATION-1-1,SPEED-1-1,WEAKNESS-400-1,HUNGER-400-5
+        Explosion_No_Grief: true
+        Explosion_Radius: 14
+        On_Impact_With_Anything: true
+        Sounds_Explode: ENTITY_IRONGOLEM_ATTACK-2-2-20
+    Potion_Effects:
+        Activation: shoot
+        Potion_Effect_Shooter: BLINDNESS-1-1,CONFUSION-1-1,HUNGER-1-1,POISON-1-1,SLOW-1-1,WEAKNESS-1-1,WITHER-1-1
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: BLOCK_BREAK-145
+        Particle_Impact_Anything: BLOCK_BREAK-152
+        Particle_Hit: BLOCK_BREAK-152
