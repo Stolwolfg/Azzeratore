@@ -1,0 +1,31 @@
+Amenotejikara:
+    Item_Information:
+        Item_Name: "&4A&0m&4e&0n&4o&0t&4e&0j&4i&0k&4a&0r&4a"
+        Item_Type: 381
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage:true
+        Cancel_Right_Click_Interactions: true
+        Projectile_Amount: 2
+        Projectile_Type: fireball
+        Remove_Bullet_Drop: true
+        Projectile_Speed: 100
+        Projectile_Damage: 10
+        Bullet_Spread: 3
+    Reload:
+        Enable: true
+        Starting_Amount: 3
+        Reload_Amount: 1
+        Reload_Duration: 200
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 5
+    Explosions:
+       Enable: true
+        Enable_Owner_Immunity: true
+        Explosion_No_Damage: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+    Extras:
+        Run_Console_Command: "tp <shooter> <victim>"
